@@ -1,10 +1,13 @@
-use fms;
-create table admin( 
-    first_name varchar(30),
-    last_name varchar(20),
-    dob date,
-    gender varchar(20),
-    contact_no varchar(10),
-    user_id varchar(30),
-    password varchar(30)
+CREATE TABLE `admins` (
+  `id` varchar(255) DEFAULT NULL,
+  `first_name` varchar(255) DEFAULT NULL,
+  `last_name` varchar(255) DEFAULT NULL,
+  `dob` date DEFAULT NULL,
+  `gender` varchar(255) DEFAULT NULL,
+  `contact_no` varchar(10) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `first_answer` varchar(255) DEFAULT NULL,
+  `second_answer` varchar(255) DEFAULT NULL,
+  `third_answer` varchar(255) DEFAULT NULL
 );
